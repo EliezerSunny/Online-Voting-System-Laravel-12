@@ -80,7 +80,7 @@ An online voting application built using **Laravel** and **Livewire**. This plat
 6. **Serve the Application**
 
    ```bash
-   php artisan serve
+   composer run dev
    ```
 
 7. **Access the App**
