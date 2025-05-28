@@ -118,13 +118,6 @@ routes/
 ├── web.php
 ```
 
-## 📌 To-Do / Improvements
-
-* Add OTP/email verification
-* Implement blockchain-based vote recording (optional)
-* Export results as PDF/Excel
-* Add unit and feature tests
-
 ## 🧑‍💻 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
