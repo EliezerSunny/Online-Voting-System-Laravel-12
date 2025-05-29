@@ -8,6 +8,7 @@
                 <flux:text class="mt-2">Update User.</flux:text>
             </div>
  
+            <flux:input label="Assign as Admin (True Or False)" wire:model="is_admin" placeholder="Assign as Admin" />
             <flux:input label="User Name" wire:model="username" placeholder="User Name" />
             <flux:input label="Email" wire:model="email" placeholder="User Emai" />
             {{-- <flux:input wire:model="image" label="Profile Picture" type="file" /> --}}

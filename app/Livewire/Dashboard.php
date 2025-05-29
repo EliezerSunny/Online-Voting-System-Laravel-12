@@ -13,6 +13,18 @@ class Dashboard extends Component
 {
 
     public $vote, $voteID;
+
+    public $rvotes;
+
+    public function mount(){
+
+    if (!auth()->user()->is_admin) {
+
+        return redirect('cast-vote');
+        
+    }
+
+}
  
     #[On('edit-vote')] //livewire laravel com/docs/events#dispatching-events
  
@@ -35,6 +47,7 @@ class Dashboard extends Component
     }
 
 }
+
 
 
  
@@ -69,6 +82,11 @@ class Dashboard extends Component
 
 
 
+public function refresh(){
+
+    $this->rvotes = Vote::count();
+
+}
 
 
 
@@ -104,6 +122,10 @@ class Dashboard extends Component
 
 
         // percentage
+
+
+        $this->refresh();
+
 
         return view('livewire.dashboard', ['votes' => $votes, 'votess' => $votess, 'voted' => $voted, 'candidates' => $candidates, 'voters' => $voters,  'votersPercentage' => $votersPercentage, 'cPercentage' => $cPercentage, 'users' => $users]);
     } else {

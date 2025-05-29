@@ -1,10 +1,10 @@
-<div>
+<div wire:poll.5s="refresh">
     {{-- Stop trying to control. --}}
 
 
 
 
-    <div class="flex h-full w-full flex-1 flex-col gap-4 rounded-xl">
+    <div class="flex w-full flex-1 flex-col gap-4 rounded-xl">
         
         <div class="grid auto-rows-min gap-4 md:grid-cols-3">
             
@@ -26,6 +26,7 @@
 
 <div class="max-w-sm w-full bg-white rounded-lg shadow-sm dark:bg-gray-800 p-4 md:p-6">
   <div class="flex justify-between">
+
     <div>
       <h5 class="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">{{ count($votess) }}</h5>
       <p class="text-base font-normal text-gray-500 dark:text-gray-400">Total Votes</p>
@@ -572,7 +573,7 @@ if (document.getElementById("pie-chart") && typeof ApexCharts !== 'undefined') {
                 <flux:text class="mt-2">Update Vote.</flux:text>
             </div>
  
-            <flux:input wire:model="vote" label="Vote" placeholder="Vote Status" />
+            <flux:input wire:model="vote" label="Vote (True or False)" placeholder="Vote Status" />
  
             <div class="flex">
                 <flux:spacer />

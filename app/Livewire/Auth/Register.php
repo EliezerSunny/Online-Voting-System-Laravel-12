@@ -116,6 +116,8 @@ class Register extends Component
 
         $user->givePermissionTo(['Vote']);
 
+
+        // Uncomment this code below to notify new user through e-mail when registring.
         // Mail::to($user['email'])->send(new WelcomeUserMail($user));
         
 

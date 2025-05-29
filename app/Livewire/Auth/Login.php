@@ -34,9 +34,11 @@ class Login extends Component
     {
         
         
-        $voting = VoteSession::where('active', true)->where("vote_ends_at", "<=", now())->first();
+        $voting = VoteSession::where('active', true)->orWhere("vote_ends_at", "<=", now())->first();
 
-        if ($voting) {
+        $allowAdmin = User::where('is_admin', false)->first();
+
+        if ($voting && $allowAdmin) {
 
             return redirect()->back()->with("error", "Voting Ended! You Can't Login.");
         }

@@ -137,12 +137,14 @@ public function checkVotingSession()
 
 
 
+
     public function render()
 {
     if (!auth()->check() && !auth()->user()->hasPermissionTo('Read')) {
         session()->flash("error", "Unauthorized Access!");
         return;
     }
+
 
 
 

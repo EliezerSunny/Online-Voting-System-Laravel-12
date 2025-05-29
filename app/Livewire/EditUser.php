@@ -15,7 +15,7 @@ class EditUser extends Component
 
     use WithFileUploads;
  
-    public $username, $email, 
+    public $is_admin, $username, $email, 
     // $image, 
     $userID;
  
@@ -31,6 +31,7 @@ class EditUser extends Component
  
         $user = User::findOrFail($id);
         $this->userID = $id;
+        $this->is_admin = $user->is_admin;
         $this->username = $user->username;
         $this->email = $user->email;
         // $this->image = $user->image;
@@ -58,6 +59,7 @@ class EditUser extends Component
         // $imagePath = $this->image->store('users', 'public');
  
         $user = User::find($this->userID);
+        $user->is_admin = $this->is_admin;
         $user->username = $this->username;
         $user->email = $this->email;
         // $user->image = $imagePath;

@@ -24,19 +24,25 @@ An online voting application built using **Laravel** and **Livewire**. This plat
 ## Images
 
 * Login page:
-![img](storage/app/public/img/login.png)
+![img](storage/img/login.png)
+
+* Login page:
+![img](storage/img/login_error.png)
 
 * Home page:
-![img](storage/app/public/img/home_page.png)
+![img](storage/img/home_page.png)
 
 * Home page2:
-![img](storage/app/public/img/home_page2.png)
+![img](storage/img/home_page2.png)
 
 * Voting page:
-![img](storage/app/public/img/voting_page.png)
+![img](storage/img/voting_page.png)
 
 * Roles and Permissions page:
-![img](storage/app/public/img/roles_permissions.png)
+![img](storage/img/roles_permissions.png)
+
+* Login page:
+![img](storage/img/dashboard.png)
 
 
 ## 📦 Installation

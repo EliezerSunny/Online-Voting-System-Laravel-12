@@ -35,7 +35,6 @@ Route::get('/', function () {
 
 
 
-
     // AUTH
 Route::middleware(['auth'])->group(function () {
     Route::redirect('settings', 'settings/profile');
