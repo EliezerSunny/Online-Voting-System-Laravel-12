@@ -86,7 +86,7 @@ An online voting application built using **Laravel** and **Livewire**. This plat
 6. **Serve the Application**
 
    ```bash
-   php artisan serve
+   composer run dev
    ```
 
 7. **Access the App**
@@ -123,13 +123,6 @@ resources/
 routes/
 ├── web.php
 ```
-
-## 📌 To-Do / Improvements
-
-* Add OTP/email verification
-* Implement blockchain-based vote recording (optional)
-* Export results as PDF/Excel
-* Add unit and feature tests
 
 ## 🧑‍💻 Contributing
 
