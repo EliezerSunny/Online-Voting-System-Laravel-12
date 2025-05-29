@@ -26,7 +26,7 @@ An online voting application built using **Laravel** and **Livewire**. This plat
 * Login page:
 ![img](https://raw.githubusercontent.com/EliezerSunny/Online-Voting-System-Laravel-12/refs/heads/main/public/img/login.png)
 
-* Login page:
+* Login page2:
 ![img](https://raw.githubusercontent.com/EliezerSunny/Online-Voting-System-Laravel-12/refs/heads/main/public/img/login_error.png)
 
 * Home page:
@@ -41,7 +41,7 @@ An online voting application built using **Laravel** and **Livewire**. This plat
 * Roles and Permissions page:
 ![img](https://raw.githubusercontent.com/EliezerSunny/Online-Voting-System-Laravel-12/refs/heads/main/public/img/roles_permissions.png)
 
-* Login page:
+* Dashboard page:
 ![img](https://raw.githubusercontent.com/EliezerSunny/Online-Voting-System-Laravel-12/refs/heads/main/public/img/dashboard.png)
 
 
