@@ -24,25 +24,25 @@ An online voting application built using **Laravel** and **Livewire**. This plat
 ## Images
 
 * Login page:
-![img](img/login.png)
+![img](https://raw.githubusercontent.com/EliezerSunny/Online-Voting-System-Laravel-12/refs/heads/main/public/img/login.png)
 
 * Login page:
-![img](img/login_error.png)
+![img](https://raw.githubusercontent.com/EliezerSunny/Online-Voting-System-Laravel-12/refs/heads/main/public/img/login_error.png)
 
 * Home page:
-![img](img/home_page.png)
+![img](https://raw.githubusercontent.com/EliezerSunny/Online-Voting-System-Laravel-12/refs/heads/main/public/img/home_page.png)
 
 * Home page2:
-![img](img/home_page2.png)
+![img](https://raw.githubusercontent.com/EliezerSunny/Online-Voting-System-Laravel-12/refs/heads/main/public/img/home_page2.png)
 
 * Voting page:
-![img](img/voting_page.png)
+![img](https://raw.githubusercontent.com/EliezerSunny/Online-Voting-System-Laravel-12/refs/heads/main/public/img/voting_page.png)
 
 * Roles and Permissions page:
-![img](img/roles_permissions.png)
+![img](https://raw.githubusercontent.com/EliezerSunny/Online-Voting-System-Laravel-12/refs/heads/main/public/img/roles_permissions.png)
 
 * Login page:
-![img](img/dashboard.png)
+![img](https://raw.githubusercontent.com/EliezerSunny/Online-Voting-System-Laravel-12/refs/heads/main/public/img/dashboard.png)
 
 
 ## 📦 Installation
