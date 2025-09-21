@@ -34,7 +34,9 @@ class Login extends Component
     {
         
         
-        $voting = VoteSession::where('active', true)->orWhere("vote_ends_at", "<=", now())->first();
+        $voting = VoteSession::where('active', true)
+        ->where("vote_ends_at", ">=", now())
+        ->first();
 
         $allowAdmin = User::where('is_admin', false)->first();
 
